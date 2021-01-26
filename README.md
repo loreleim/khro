@@ -2,8 +2,7 @@
 
 a wordpress theme for photographers
 
-<img align="left" alt="Wordpress Theme Thumbnail" width="100px" src="https://raw.githubusercontent.com/loreleim/khro/main/screenshot.png" />
-![Wordpress theme thumbnail](https://raw.githubusercontent.com/loreleim/khro/main/screenshot.png)
+<img align="left" alt="Wordpress Theme Thumbnail" width="500px" src="https://raw.githubusercontent.com/loreleim/khro/main/screenshot.png" />
 
 ## Development
 
