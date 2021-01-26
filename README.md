@@ -7,7 +7,7 @@ a wordpress theme for photographers
 ## Development
 
 - [ ] Download latest version of MAMP
-- [ ] Download the latest version of (Wordpress)[https://wordpress.org/download/]
+- [ ] Download the latest version of [Wordpress](https://wordpress.org/download/)
 - [ ] In MAMP window, Start Servers
 - [ ] Access your server at localhost:8888/MAMP
 - [ ] In the nav bar hit tools > PHP my admin
