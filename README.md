@@ -2,7 +2,7 @@
 
 a wordpress theme for photographers
 
-![Wordpress theme thumbnail](https://github.com/loreleim/khro/blob/main/screenshot.png?raw=true)
+![Wordpress theme thumbnail](https://raw.githubusercontent.com/loreleim/khro/main/screenshot.png)
 
 ## Development
 
