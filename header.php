@@ -5,6 +5,9 @@
  * @package khro
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Prevents access of files
+}
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
