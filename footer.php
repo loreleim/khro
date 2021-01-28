@@ -13,10 +13,9 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'khro' ), 'khro', '<a href="https://github.com/loreleim">LOE, LLC</a>' );
-				?>
+			<h2>
+				Footer
+			</h2>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
