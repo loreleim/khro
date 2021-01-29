@@ -47,3 +47,5 @@ require $themeDir . '/inc/template-tags.php'; //Custom template tags for this th
 require $themeDir . '/inc/template-functions.php'; //Functions which enhance the theme by hooking into WordPress.
 require $themeDir . '/inc/customizer.php'; //Customizer additions.
 
+//removes the admin bar during development 
+add_filter('show_admin_bar', '__return_false');
