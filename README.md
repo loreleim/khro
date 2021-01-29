@@ -18,3 +18,8 @@ a wordpress theme for photographers
 - [ ] Database name: wordpress > Username: root > Password: root > everything else the same > Submit button
 - [ ] Site title: title > username: whatever > password: > email: whatever
 - [ ] Login with those credentials
+
+
+## Bibliography
+
+[How to implement custom header sizing](https://developer.wordpress.org/themes/functionality/custom-headers/)
