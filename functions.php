@@ -166,3 +166,12 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+//enable custom headers
+add_theme_support( 'custom-header', array(
+  'header_image'    => '',
+  'header-selector' => '.site-title a',
+  'header-text'     => false,
+  'height'          => 805,
+  'width'           => 1350,
+  ) );
