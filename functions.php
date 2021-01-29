@@ -32,6 +32,7 @@ add_action( 'after_setup_theme', 'khro_setup' );
 
 //Enqueue scripts and styles.
 function khro_scripts() {
+	wp_enqueue_style( 'khro-style', get_template_directory_uri() . "/style.css", array(), _S_VERSION );
 
 	wp_enqueue_script( 'khro-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
