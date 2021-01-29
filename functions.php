@@ -9,8 +9,12 @@
 define( 'GENERATE_VERSION', '0.1.0' );
 
 if ( ! function_exists( 'khro_setup' ) ) :
+  //Sets up theme defaults and registers support for various WordPress features.
 
+	function khro_setup() {
 
+    //theme available for translation
+		load_theme_textdomain( 'khro', get_template_directory() . '/languages' );
 
 
 		add_theme_support(
