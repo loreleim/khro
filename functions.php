@@ -36,6 +36,11 @@ if ( ! function_exists( 'khro_setup' ) ) :
     'width'           => 1350,
     ));
     
+    // registers primary menu
+		register_nav_menus(
+			array(
+				'primary' => esc_html__( 'Primary', 'khro' ),
+			)
 		);
 	}
 endif;
