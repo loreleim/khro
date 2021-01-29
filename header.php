@@ -31,8 +31,3 @@ if ( ! defined( 'ABSPATH' ) ) {
         </a>
     </div>
   <?php endif; ?>
-</head>
-
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div id="page" class="site">
