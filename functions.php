@@ -25,6 +25,17 @@ if ( ! function_exists( 'khro_setup' ) ) :
 				'flex-width'  => true,
 				'flex-height' => true,
 			)
+    );
+
+    //enable custom headers
+    add_theme_support( 'custom-header', array(
+    'header_image'    => '',
+    'header-selector' => '.site-title a',
+    'header-text'     => false,
+    'height'          => 805,
+    'width'           => 1350,
+    ));
+    
 		);
 	}
 endif;
