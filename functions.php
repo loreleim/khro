@@ -41,4 +41,8 @@ add_action( 'wp_enqueue_scripts', 'khro_scripts' );
 //shorthand necessary theme files
 $themeDir = get_template_directory();
 
+require $themeDir . '/inc/custom-header.php';
+require $themeDir . '/inc/template-tags.php'; //Custom template tags for this theme.
+require $themeDir . '/inc/template-functions.php'; //Functions which enhance the theme by hooking into WordPress.
+require $themeDir . '/inc/customizer.php'; //Customizer additions.
 
