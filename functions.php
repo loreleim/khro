@@ -5,6 +5,8 @@
  * @package khro
   */
 
+// Set our theme version.
+define( 'GENERATE_VERSION', '0.1.0' );
 
 if ( ! function_exists( 'khro_setup' ) ) :
 
