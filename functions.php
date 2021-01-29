@@ -16,7 +16,14 @@ if ( ! function_exists( 'khro_setup' ) ) :
     //theme available for translation
 		load_theme_textdomain( 'khro', get_template_directory() . '/languages' );
 
+		// adds theme support for various features
+    add_theme_support( 'automatic-feed-links' ); //rss
+		add_theme_support( 'title-tag' ); //change <title>
+    add_theme_support( 'post-thumbnails' ); //ability to add a post thumbnail
+    add_theme_support('html5',array('search-form','comment-form','comment-list','gallery','caption','style','script',)); //Switch default core markup to output valid HTML5.
+    add_theme_support( 'customize-selective-refresh-widgets' ); //refresh for widgets i.e. social media
 
+    //custom logo
 		add_theme_support(
 			'custom-logo',
 			array(
