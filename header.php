@@ -31,3 +31,5 @@ if ( ! defined( 'ABSPATH' ) ) {
         </a>
     </div>
   <?php endif; ?>
+  
+  <div id="page" class="site">
