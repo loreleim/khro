@@ -38,5 +38,7 @@ function khro_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'khro_scripts' );
 
+//shorthand necessary theme files
+$themeDir = get_template_directory();
 
 
