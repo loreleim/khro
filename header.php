@@ -5,9 +5,9 @@
  * @package khro
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Prevents access of files
-}
+  if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Prevents access of files
+  }
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -23,13 +23,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <body <?php body_class(); ?>>
 
-	<!--Custom Header-->
-  <?php if ( get_header_image() ) : ?>
-    <div id="site-header">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-            <img src="<?php header_image(); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-        </a>
+  <section class="heroContainer">
+  	<!--Custom Header-->
+    <?php if ( get_header_image() ) : ?>
+    <div class="headerImgContainer">
+      <img id="test" src="<?php header_image(); ?>"/>
     </div>
   <?php endif; ?>
+  </section>
   
   <div id="page" class="site">
