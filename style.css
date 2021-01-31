@@ -13,8 +13,33 @@ Text Domain: khro
 Tags: custom-header
 */
 
+@import url("https://use.typekit.net/jzs2tbw.css");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+h1,
+h2,
+h3 {
+  font-family: beastly, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#test {
+  border-radius: 3rem;
 }
